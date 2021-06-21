@@ -126,8 +126,6 @@ monte_carlo <- function(policy,state_distribution,mean_field, num_iteration=200,
   return(returns/num_visited)
 }
 
-sum(state_space * stationary_mf(.485162))
-mean(monte_carlo(.485162, state_distribution, stationary_mf(.485162)))
 
 result <- NULL
 
